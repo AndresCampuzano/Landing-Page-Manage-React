@@ -1,0 +1,39 @@
+@import './Variables.scss';
+@import './Global.scss';
+@import './Media.scss';
+
+.features {
+	background-color: $lightGrayishBlue;
+	.featuresContainer {
+		margin: $margin;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		.features__title {
+			max-width: 600px;
+			& h2 {
+				font-weight: 500;
+				font-size: 2em;
+			}
+			& p {
+				color: $grayishBlue;
+			}
+		}
+		.features__items {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin: 0;
+			padding-top: 35px;
+			flex-wrap: wrap;
+			.features__items--item {
+				width: 20%;
+				& h3 {
+					font-weight: 500;
+				}
+				& p {
+					color: $grayishBlue;
+				}
+			}
+		}
+	}
+}
