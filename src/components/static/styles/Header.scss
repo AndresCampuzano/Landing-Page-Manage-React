@@ -63,7 +63,7 @@
 		.header__responsive--background {
 			position: absolute;
 			width: 100%;
-			height: 500px;
+			height: 100vh;
 			background: linear-gradient(to bottom, $darkBlue 0%, transparent 100%);
 			z-index: 4;
 		}

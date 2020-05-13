@@ -47,7 +47,10 @@ const Header = () => {
 			</div>
 			{count & 1 ? (
 				<div className='header__responsive'>
-					<div className='header__responsive--background'></div>
+					<div
+						className='header__responsive--background'
+						onClick={() => setCount(count + 1)}
+					></div>
 					<div className='header__responsive--menu'>
 						<ul onClick={() => setCount(count + 1)}>
 							<li>Home</li>
