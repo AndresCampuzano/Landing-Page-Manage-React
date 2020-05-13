@@ -9,6 +9,14 @@ body {
 	font-family: 'Public Sans', sans-serif;
 }
 
+.hero,
+.features,
+.articles,
+.footer {
+	max-width: 1400px;
+	margin: auto;
+}
+
 .btn {
 	border: none;
 	border-radius: 30px;

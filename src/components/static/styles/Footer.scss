@@ -16,6 +16,10 @@
 			padding-right: 80px;
 			.footer__social--icons {
 				padding-top: 50px;
+				width: 170px;
+				& img {
+					margin: 0 6px;
+				}
 			}
 		}
 		.footer__menu {
