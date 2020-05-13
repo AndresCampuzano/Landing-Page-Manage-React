@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArticlesCard = ({ image }) => {
+const ArticlesCard = ({ image, author, title, text }) => {
 	return (
 		<>
 			<div className='articles__items--item'>
@@ -8,12 +8,9 @@ const ArticlesCard = ({ image }) => {
 					<img src={image} alt='article' />
 				</div>
 				<div className='articlesItemContainer'>
-					<span>By Claire Robinson</span>
-					<h4>Receive money in any currency with no fees</h4>
-					<p>
-						The world is getting smaller and we’re becoming more mobile.
-						So why should you be forced to only receive money in a single.
-					</p>
+					<span>By {author}</span>
+					<h4>{title}</h4>
+					<p>{text} ...</p>
 				</div>
 			</div>
 		</>
