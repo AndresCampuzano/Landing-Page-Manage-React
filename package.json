@@ -1,7 +1,7 @@
 {
-	"name": "challenge-react-easybank-react",
+	"name": "challenge-react-manage-react",
 	"version": "1.0.0",
-	"description": "Challenge Easybank using React.",
+	"description": "Challenge Manage landing page using React.",
 	"main": "index.js",
 	"dependencies": {
 		"react": "^16.13.1",
@@ -35,7 +35,7 @@
 	},
 	"scripts": {
 		"build": "webpack --mode production",
-		"start": "webpack-dev-server --open --mode development",
+		"start": "webpack-dev-server --mode development",
 		"deploy": "npm run build && gh-pages -d dist"
 	},
 	"keywords": [
