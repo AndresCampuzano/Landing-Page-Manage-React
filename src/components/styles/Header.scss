@@ -1,0 +1,43 @@
+.Header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  background: transparent;
+  height: 110px;
+
+  img {
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    li {
+      margin-left: 12px;
+      margin-right: 12px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    li:hover {
+      color: #9095a7;
+    }
+  }
+
+  button {
+    padding: 14px 22px 12px 22px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F3613C;
+    color: white;
+    -webkit-box-shadow: 0px 10px 32px -14px #f3613c;
+    -moz-box-shadow: 0px 10px 32px -14px #f3613c;
+    box-shadow: 0px 10px 32px -14px #f3613c;
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+
+  button:hover {
+    background-color: #f78669;
+  }
+}

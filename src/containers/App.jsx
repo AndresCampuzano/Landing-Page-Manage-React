@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
+import Hero from '../components/Hero';
+import '../components/styles/global.scss';
 
 const App = () => {
   return (
     <>
-      <h1>Hi from App</h1>
       <Header />
+      <Hero />
+      <h1>Hi from App</h1>
     </>
   );
 };
