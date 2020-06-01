@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import About from '../components/About';
+import Testimonials from '../components/Testimonials';
 import '../components/styles/global.scss';
 
 const App = () => {
@@ -8,7 +10,8 @@ const App = () => {
     <>
       <Header />
       <Hero />
-      <h1>Hi from App</h1>
+      <About />
+      <Testimonials />
     </>
   );
 };

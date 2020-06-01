@@ -1,0 +1,57 @@
+.About {
+
+  .About-gridDesktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .About-containerOne--title {
+      margin: auto;
+      padding-right: 120px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 2em;
+      }
+
+      p {
+        margin: 15px 0;
+        color: #9095a7;
+      }
+    }
+
+    .About-containerTwo {
+
+      .About-containerTwo--item {
+        // border: 1px solid red;
+
+        .title-and-circle {
+          display: flex;
+          align-items: center;
+
+          .circle {
+            padding: 8px 15px 8px 15px;
+            border-radius: 20px;
+            border: none;
+            background-color: #F3613C;
+            color: white;
+            -webkit-box-shadow: 0px 10px 32px -14px #f3613c;
+            -moz-box-shadow: 0px 10px 32px -14px #f3613c;
+            box-shadow: 0px 10px 32px -14px #f3613c;
+            font-weight: 700;
+            font-size: 0.9em;
+          }
+
+          h3 {
+            font-weight: 700;
+            margin-left: 15px;
+          }
+          }
+
+          p {
+            margin: 15px 0 15px 55px;
+            color: #9095a7;
+          }
+        }
+      }
+    }
+  }

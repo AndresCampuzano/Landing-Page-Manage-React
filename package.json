@@ -4,6 +4,7 @@
 	"description": "Challenge Manage landing page using React.",
 	"main": "index.js",
 	"dependencies": {
+		"infinite-react-carousel": "^1.2.11",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1"
 	},
