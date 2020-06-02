@@ -7,6 +7,18 @@
   .Carousel-Mobile {
     display: none;
   }
+
+  .orange-Mobile {
+    display: none;
+  }
+
+  .menu-mobile-div {
+    display: none;
+  }
+
+  .copyright-mobile {
+    display: none;
+  }
 }
 
 @media (max-width : 1024px) {
@@ -31,13 +43,23 @@
     display: none;
   }
 
+  // Footer
+
+  .orange-Mobile {
+    display: none;
+  }
+
+  .menu-mobile-div {
+    display: none;
+  }
+
+  .copyright-mobile {
+    display: none;
+  }
+
 }
 
 @media (max-width : 768px) {
-
-  body {
-    background-color: rebeccapurple;
-  }
 
   // Header ----
 
@@ -84,4 +106,69 @@
     display: initial;
   }
 
+  // Footer 
+
+  .orange {
+    display: none;
+  }
+
+  .orange-Mobile {
+    display: block;
+  }
+
+  .Footer .orange-Mobile .orange-container {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Footer .black {
+    height: auto;
+  }
+
+  .Footer .black .black-container {
+    flex-direction: column-reverse;
+    padding: 35px 0;
+  }
+
+  .copyright-desktop {
+    display: none;
+  }
+
+  .copyright-mobile {
+    display: block;
+  }
+
+  .menuOne, .menuTwo {
+    display: none;
+  }
+
+  .menu-mobile-div {
+    display: flex;
+  }
+
+  .logoAndSocialMedia {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  .Footer .black .black-container .logoAndSocialMedia .socialMedia {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .Footer .black .black-container .logoAndSocialMedia .socialMedia img {
+    width: 33px;
+    margin: 0 12px;
+  }
+
+}
+
+@media (max-width : 450px) {
+
+  // Hero
+
+  .Hero-mobile .text-Mobile h1 {
+    font-size: 2.5em;
+  }
 }

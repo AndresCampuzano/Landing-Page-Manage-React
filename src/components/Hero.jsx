@@ -10,7 +10,8 @@ const Hero = () => {
       {/* <div className='justBackgroundHero'>
         <img src={imageBackground} alt='background' className='Desktop' />
       </div> */}
-      <div className='Hero wrapper Desktop'>
+      <div className='Hero wrapper'>
+        {/* <div className='wrapper' /> */}
         <div className='Hero-gridDesktop '>
           <div className='Hero-containerOne'>
             <div className='Hero-containerOne--text'>

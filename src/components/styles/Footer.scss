@@ -42,6 +42,49 @@
     }
   }
 
+  .orange-Mobile {
+    background-color: #F3603C;
+    height: 350px;
+    background-image: url('https://raw.githubusercontent.com/AndresCampuzano/Landing-Page-Manage-React/e74ef08c445ec566efe41a196baa9393cc87850b/src/components/images/bg-simplify-section-mobile.svg');
+    // background-position: 240px;
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: left;
+    .orange-container {
+      height: 100%;
+      width: 260px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h2 {
+        font-weight: 500;
+        font-size: 2em;
+        max-width: 450px;
+        color: white;
+        margin-bottom: 25px;
+      }
+
+      .whiteFooterButton {
+        padding: 14px 22px 12px 22px;
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        color: #f3613c;
+        -webkit-box-shadow: 0px 10px 32px -14px #c9593d;
+        -moz-box-shadow: 0px 10px 32px -14px #c9593d;
+        box-shadow: 0px 10px 32px -14px #c9593d;
+        font-weight: 700;
+        font-size: 0.9em;
+      }
+
+      .whiteFooterButton:hover {
+        color: #ffa088;
+      }
+    }
+  }
+
 
   .black {
     background-color: #1d1e25;
@@ -50,7 +93,6 @@
 
     .black-container {
       height: 100%;
-      width: 100%;
       width: 90%;
       margin: auto;
       display: flex;
@@ -120,10 +162,35 @@
         span {
           position: absolute;
           // right: 188px;
+        }
       }
     }
   }
+}
+
+.menu-mobile-div {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  li {
+    margin: 22px 0;
+    cursor: pointer;
   }
+  li:hover {
+    color: grey;
+  }
+}
+
+.copyright-desktop, .copyright-mobile {
+  color: grey;
+  margin-top: 40px;
+  font-size: .8em;
+}
+
+.logo-footer {
+  margin: auto;
+  width: 8pc;
 }
 
 .red {
