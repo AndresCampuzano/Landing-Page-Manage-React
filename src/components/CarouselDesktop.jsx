@@ -12,7 +12,7 @@ const CarouselDesktop = () => {
   const settings = {
     arrows: false,
     autoplay: false,
-    dots: true,
+    dots: false,
     slidesToShow: 3,
     wheel: true,
     // centerPadding: 100,

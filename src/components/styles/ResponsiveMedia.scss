@@ -1,15 +1,39 @@
 
 @media (min-width : 1025px) {
-  .Mobile {
+  .Mobile-menu {
+    display: none;
+  }
+
+  .Carousel-Mobile {
     display: none;
   }
 }
 
 @media (max-width : 1024px) {
 
-  .Desktop {
+  // Header
+  .Header-menuDesktop {
     display: none;
   }
+
+  .Header .normalButton {
+    display: none;
+  }
+
+  // Hero 
+  .Hero-mobile {
+    display: none;
+  }
+
+  // Testimonials
+
+  .Carousel-Mobile {
+    display: none;
+  }
+
+}
+
+@media (max-width : 768px) {
 
   body {
     background-color: rebeccapurple;
@@ -18,16 +42,46 @@
   // Header ----
 
 
-
   // Hero -----
 
+  .Hero {
+    display: none;
+  }
 
+  .Hero-mobile {
+    display: initial;
+  }
+
+
+  .text-Mobile {
+    margin: auto;
+    width: 80%;
+  }
 
   // About ----
 
-  // .About .About-grid {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+  .About .About-grid {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    .About-containerOne--title {
+      padding-right: 0;
+    }
+    .About-containerTwo .About-containerTwo--item p {
+      margin: 15px 0 15px 0;
+      color: #9095a7;
+      text-align: left;
+  }
+  }
+
+  // Testimonials
+
+  .Carousel-Desktop {
+    display: none;
+  }
+
+  .Carousel-Mobile {
+    display: initial;
+  }
 
 }

@@ -27,7 +27,7 @@ const Header = () => {
         <button type='button' className='normalButton Desktop'>
           Get Started
         </button>
-        <div className='Mobile'>
+        <div className='Mobile-menu'>
           {count & 1 ? (
             <img
               src={iconClose}

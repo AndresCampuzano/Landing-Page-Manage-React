@@ -7,9 +7,9 @@ import imageBackground from './images/bg-tablet-pattern.svg';
 const Hero = () => {
   return (
     <>
-      <div className='justBackgroundHero'>
+      {/* <div className='justBackgroundHero'>
         <img src={imageBackground} alt='background' className='Desktop' />
-      </div>
+      </div> */}
       <div className='Hero wrapper Desktop'>
         <div className='Hero-gridDesktop '>
           <div className='Hero-containerOne'>
@@ -29,10 +29,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='Hero-mobile Mobile'>
-        <div className='justBackgroundHero-Mobile'>
+      <div className='Hero-mobile'>
+        {/* <div className='justBackgroundHero-Mobile'>
           <img src={imageBackground} alt='background' />
-        </div>
+        </div> */}
         <div className='charts-Mobile'>
           <img src={imagesHero} alt='charts' />
         </div>

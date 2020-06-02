@@ -12,7 +12,7 @@ const CarouselMobile = () => {
   const settings = {
     arrows: false,
     autoplay: false,
-    dots: false,
+    dots: true,
     slidesToShow: 3,
     wheel: true,
     // centerPadding: 100,

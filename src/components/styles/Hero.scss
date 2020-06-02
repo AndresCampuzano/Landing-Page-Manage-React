@@ -27,7 +27,7 @@
 
     .Hero-containerOne {
       margin: auto;
-      padding-right: 120px;
+      padding-right: 25%;
 
       h1 {
         font-size: 3em;
@@ -61,7 +61,7 @@
       .Hero-containerTwo--images {
         margin: auto;
         img {
-          width: 100%;
+          width: 390px;
         }
       }
     }
@@ -70,6 +70,7 @@
 
 .Hero-mobile {
   text-align: center;
+  display: none;
   .justBackgroundHero-Mobile {
     position: absolute;
     top: -50px;
@@ -87,12 +88,10 @@
       font-size: 3em;
       font-weight: 700;
     }
-
     p {
       margin: 15px 0;
       color: #9095a7;
     }
-
     .normalButton {
       padding: 14px 22px 12px 22px;
       border-radius: 20px;
@@ -105,7 +104,6 @@
       font-weight: 700;
       font-size: 0.9em;
     }
-
     .normalButton:hover {
       background-color: #f78669;
     }

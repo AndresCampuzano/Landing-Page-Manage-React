@@ -17,10 +17,10 @@ const Testimonials = () => {
       <div className='Testimonials'>
         <h2>What they’ve said</h2>
         <div className='Testimonials-carousel'>
-          <div className='Desktop'>
+          <div className='Carousel-Desktop'>
             <CarouselDesktop />
           </div>
-          <div className='Mobile'>
+          <div className='Carousel-Mobile'>
             <CarouselMobile />
           </div>
         </div>
