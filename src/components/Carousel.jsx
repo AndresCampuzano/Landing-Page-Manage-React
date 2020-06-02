@@ -11,7 +11,7 @@ import avatarShanai from './images/avatar-shanai.png';
 const Carousel = () => {
   const settings = {
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     dots: true,
     slidesToShow: 3,
     wheel: true,

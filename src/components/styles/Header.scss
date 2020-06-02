@@ -24,7 +24,7 @@
     }
   }
 
-  button {
+  .normalButton {
     padding: 14px 22px 12px 22px;
     border-radius: 20px;
     border: none;
@@ -37,7 +37,7 @@
     font-size: 0.9em;
   }
 
-  button:hover {
+  .normalButton:hover {
     background-color: #f78669;
   }
 }

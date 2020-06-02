@@ -18,7 +18,7 @@ const Testimonials = () => {
         <div className='Testimonials-carousel'>
           <Carousel />
         </div>
-        <button type='button'>Get Started</button>
+        <button type='button' className='normalButton'>Get Started</button>
       </div>
     </>
   );

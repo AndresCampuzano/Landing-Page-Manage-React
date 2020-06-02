@@ -20,7 +20,7 @@ const Header = () => {
           </ul>
         </div>
         <div className='Header-buttonDesktop'>
-          <button type='button'>Get Started</button>
+          <button type='button' className='normalButton'>Get Started</button>
         </div>
       </header>
     </>
