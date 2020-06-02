@@ -1,12 +1,18 @@
-.Header {
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.Header {
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
   // border: 1px solid red;
   background: transparent;
-  height: 110px;
-
+  margin: auto;
   img {
     cursor: pointer;
   }
@@ -46,7 +52,7 @@
   background-color: white;
   text-align: center;
   width: 93%;
-  margin-top: -32px;
+  margin-top: 103px;
   border-radius: 5px;
   position: fixed;
   left: 3%;

@@ -8,12 +8,11 @@
 
 
 .Hero {
-
   // This code does not work beacuse of the wrapper
   background-image: url('https://raw.githubusercontent.com/AndresCampuzano/Landing-Page-Manage-React/65a77b687d551d020703ba92ee687854188a5925/src/components/images/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
-  background-position: 689px -437px;
-  background-size: auto;
+  background-position: 130% -320px;
+  // background-size: auto;
 
   // background-image: url(https://raw.githubusercontent.com/AndresCampuzano/Landing-Page-Manage-React/65a77b687d551d020703ba92ee687854188a5925/src/components/images/bg-tablet-pattern.svg);
   // background-size: contain;
@@ -22,11 +21,13 @@
   // background-position: right -191% top 93%;
 
   .Hero-gridDesktop {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     .Hero-containerOne {
-      margin: auto;
+      margin-top: 120px;
+      // margin: auto;
       padding-right: 25%;
 
       h1 {
@@ -58,8 +59,9 @@
     }
 
     .Hero-containerTwo {
+      margin-top: 150px;
       .Hero-containerTwo--images {
-        margin: auto;
+        // margin: auto;
         img {
           width: 390px;
         }
@@ -70,7 +72,6 @@
 
 .Hero-mobile {
   text-align: center;
-  display: none;
   .justBackgroundHero-Mobile {
     position: absolute;
     top: -50px;
@@ -82,6 +83,7 @@
   }
   .charts-Mobile img {
     width: 80%;
+    margin-top: 120px;
   }
   .text-Mobile {
     h1 {

@@ -4,6 +4,10 @@
     display: none;
   }
 
+  .Hero .Hero-mobile {
+    display: none;
+  }
+
   .Carousel-Mobile {
     display: none;
   }
@@ -23,6 +27,8 @@
 
 @media (max-width : 1024px) {
 
+
+
   // Header
   .Header-menuDesktop {
     display: none;
@@ -32,8 +38,9 @@
     display: none;
   }
 
-  // Hero 
-  .Hero-mobile {
+  // Hero
+
+  .Hero .Hero-mobile {
     display: none;
   }
 
@@ -66,14 +73,13 @@
 
   // Hero -----
 
-  .Hero {
+  .Hero .wrapper {
     display: none;
   }
 
-  .Hero-mobile {
+  .Hero .Hero-mobile {
     display: initial;
   }
-
 
   .text-Mobile {
     margin: auto;
