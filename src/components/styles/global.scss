@@ -1,3 +1,5 @@
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
   v2.0-modified | 20110126
   License: none (public domain)
@@ -376,18 +378,4 @@ body {
     max-width: 1100px;
 }
 
-.carousel-dots li.carousel-dots-active button:before {
-    background-color: #F3603C;
-    color: #F3603C;
-}
-
-.carousel-dots li button:before {
-    border: 1px solid #F3603C;
-    border-radius: 50%;
-    color: white;
-    font-size: 1px;
-    line-height: 1px;
-    width: 8px;
-    height: 8px;
-}
 

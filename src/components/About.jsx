@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className='About wrapper'>
-        <div className='About-gridDesktop'>
+        <div className='About-grid'>
           <div className='About-containerOne'>
             <div className='About-containerOne--title'>
               <h2>What’s different about Manage?</h2>

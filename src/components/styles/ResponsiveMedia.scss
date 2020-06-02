@@ -1,0 +1,33 @@
+
+@media (min-width : 1025px) {
+  .Mobile {
+    display: none;
+  }
+}
+
+@media (max-width : 1024px) {
+
+  .Desktop {
+    display: none;
+  }
+
+  body {
+    background-color: rebeccapurple;
+  }
+
+  // Header ----
+
+
+
+  // Hero -----
+
+
+
+  // About ----
+
+  // .About .About-grid {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
+}

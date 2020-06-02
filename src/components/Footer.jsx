@@ -88,7 +88,7 @@ const Footer = () => {
               <form onSubmit={handleSubmit}>
                 <div>
                   <input type='text' placeholder='Updates in your inbox...' onChange={handleInputEmail} id='email' />
-                  <button type='submit'>Go</button>
+                  <button type='submit' className='ButtonFooter'>Go</button>
                 </div>
               </form>
               <span className='red'>{form.emailError}</span>

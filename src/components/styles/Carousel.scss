@@ -35,3 +35,18 @@
   }
 
 }
+
+.carousel-dots li.carousel-dots-active button:before {
+  background-color: #F3603C;
+  color: #F3603C;
+}
+
+.carousel-dots li button:before {
+  border: 1px solid #F3603C;
+  border-radius: 50%;
+  color: white;
+  font-size: 1px;
+  line-height: 1px;
+  width: 8px;
+  height: 8px;
+}

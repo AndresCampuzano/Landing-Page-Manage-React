@@ -8,7 +8,8 @@ import './styles/Testimonials.scss';
 // import avatarRichard from './images/avatar-richard.png';
 // import avatarShanai from './images/avatar-shanai.png';
 
-import Carousel from './Carousel';
+import CarouselDesktop from './CarouselDesktop';
+import CarouselMobile from './CarouselMobile';
 
 const Testimonials = () => {
   return (
@@ -16,7 +17,12 @@ const Testimonials = () => {
       <div className='Testimonials'>
         <h2>What they’ve said</h2>
         <div className='Testimonials-carousel'>
-          <Carousel />
+          <div className='Desktop'>
+            <CarouselDesktop />
+          </div>
+          <div className='Mobile'>
+            <CarouselMobile />
+          </div>
         </div>
         <button type='button' className='normalButton'>Get Started</button>
       </div>

@@ -10,6 +10,8 @@
     .orange-container {
       height: 100%;
       width: 100%;
+      width: 90%;
+      margin: auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -49,6 +51,8 @@
     .black-container {
       height: 100%;
       width: 100%;
+      width: 90%;
+      margin: auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -99,6 +103,19 @@
         input:focus{
           outline: none;
         box-shadow: 0 0 0 1px #F3603C;
+        }
+        .ButtonFooter {
+          margin-left: 10px;
+          padding: 14px 22px 12px 22px;
+          border-radius: 20px;
+          border: none;
+          background-color: #f3613c;
+          color: white;
+          font-weight: 700;
+          font-size: 0.9em;
+        }
+        .ButtonFooter:hover {
+          background-color: #f38d74;
         }
         span {
           position: absolute;

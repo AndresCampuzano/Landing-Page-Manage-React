@@ -67,3 +67,49 @@
     }
   }
 }
+
+.Hero-mobile {
+  text-align: center;
+  .justBackgroundHero-Mobile {
+    position: absolute;
+    top: -50px;
+    right: -70px;
+    z-index: -1;
+    img {
+      width: 429px;
+    }
+  }
+  .charts-Mobile img {
+    width: 80%;
+  }
+  .text-Mobile {
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 15px 0;
+      color: #9095a7;
+    }
+
+    .normalButton {
+      padding: 14px 22px 12px 22px;
+      border-radius: 20px;
+      border: none;
+      background-color: #F3613C;
+      color: white;
+      -webkit-box-shadow: 0px 10px 32px -14px #f3613c;
+      -moz-box-shadow: 0px 10px 32px -14px #f3613c;
+      box-shadow: 0px 10px 32px -14px #f3613c;
+      font-weight: 700;
+      font-size: 0.9em;
+    }
+
+    .normalButton:hover {
+      background-color: #f78669;
+    }
+
+  }
+
+}

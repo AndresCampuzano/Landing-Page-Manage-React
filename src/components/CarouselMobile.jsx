@@ -8,11 +8,11 @@ import avatarAnisha from './images/avatar-anisha.png';
 import avatarRichard from './images/avatar-richard.png';
 import avatarShanai from './images/avatar-shanai.png';
 
-const Carousel = () => {
+const CarouselMobile = () => {
   const settings = {
     arrows: false,
     autoplay: false,
-    dots: true,
+    dots: false,
     slidesToShow: 3,
     wheel: true,
     // centerPadding: 100,
@@ -78,4 +78,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default CarouselMobile;

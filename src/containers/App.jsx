@@ -5,6 +5,7 @@ import About from '../components/About';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
 import '../components/styles/global.scss';
+import '../components/styles/ResponsiveMedia.scss';
 
 const App = () => {
   return (
