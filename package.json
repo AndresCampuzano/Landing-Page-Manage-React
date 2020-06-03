@@ -36,7 +36,7 @@
 	},
 	"scripts": {
 		"build": "webpack --mode production",
-		"start": "webpack-dev-server -s -p --mode development",
+		"start": "webpack-dev-server --mode development",
 		"deploy": "npm run build && gh-pages -d dist"
 	},
 	"keywords": [
