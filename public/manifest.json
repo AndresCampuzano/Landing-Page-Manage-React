@@ -1,20 +1,15 @@
 {
-  "short_name": "Manage",
-  "name": "Manage landing page",
+  "short_name": "manage",
+  "name": "manage landing page",
   "icons": [
     {
       "src": "./favicon-32x32.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#F3613C",
-  "background_color": "#ffffff",
-  "related_applications": [
-    
-  ],
-  "prefer_related_applications": false
+  "background_color": "#ffffff"
 }
