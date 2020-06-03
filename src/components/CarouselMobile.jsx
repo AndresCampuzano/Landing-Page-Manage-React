@@ -20,6 +20,7 @@ const CarouselMobile = () => {
     wheel: false,
     // centerPadding: 100,
     adaptiveHeight: true,
+    swipe: false,
   };
   return (
     <>
