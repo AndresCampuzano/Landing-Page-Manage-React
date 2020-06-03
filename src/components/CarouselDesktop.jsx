@@ -11,11 +11,12 @@ import avatarShanai from './images/avatar-shanai.png';
 
 const CarouselDesktop = () => {
   const settings = {
-    arrows: false,
-    autoplay: false,
+    arrows: true,
+    autoplay: true,
     dots: false,
     slidesToShow: 3,
-    wheel: true,
+    wheel: false,
+    pauseOnHover: true,
     // centerPadding: 100,
     adaptiveHeight: true,
   };

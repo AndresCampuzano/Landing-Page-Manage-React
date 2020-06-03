@@ -11,11 +11,13 @@ import avatarShanai from './images/avatar-shanai.png';
 
 const CarouselMobile = () => {
   const settings = {
-    arrows: false,
+    arrows: true,
     autoplay: false,
+    // autoplaySpeed: 6000,
     dots: true,
     slidesToShow: 1,
-    wheel: true,
+    pauseOnHover: true,
+    wheel: false,
     // centerPadding: 100,
     adaptiveHeight: true,
   };
