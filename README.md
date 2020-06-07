@@ -1,6 +1,6 @@
 # Manage landing page
 
-![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)
+[Live Demo](https://focused-kowalevski-1cb9f7.netlify.app/)
 
 ## Welcome! 👋
 
